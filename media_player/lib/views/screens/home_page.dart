@@ -14,7 +14,7 @@ class _tabBarState extends State<tabBar> with SingleTickerProviderStateMixin {
   void initState() {
     super.initState();
     MyTabController.tabController = TabController(
-      length: 5,
+      length: 3,
       vsync: this,
     );
   }
@@ -31,12 +31,15 @@ class _tabBarState extends State<tabBar> with SingleTickerProviderStateMixin {
               padding: const EdgeInsets.only(top: 10, bottom: 10),
               isScrollable: true,
               indicator: BoxDecoration(
-                shape: BoxShape.rectangle,
-                color: MyTabController.tabController == Provider.pageController
-                    ? Colors.white
-                    : Colors.primaries[Provider.getIndex % 18],
-                borderRadius: BorderRadius.circular(10),
-              ),
+                  shape: BoxShape.rectangle,
+                  borderRadius: BorderRadius.circular(10),
+                  border: Border.all(
+                    width: 2,
+                    color:
+                        MyTabController.tabController == Provider.pageController
+                            ? Colors.white
+                            : Colors.primaries[Provider.getIndex % 18],
+                  )),
               onTap: (index) {
                 Provider.pageChange(index: index);
               },
@@ -49,7 +52,7 @@ class _tabBarState extends State<tabBar> with SingleTickerProviderStateMixin {
                       e,
                       style: TextStyle(
                         color: Provider.Tab.indexOf(e) == Provider.getIndex
-                            ? Colors.white
+                            ? Colors.primaries[Provider.getIndex % 18]
                             : Colors.black,
                         fontWeight: Provider.Tab.indexOf(e) == Provider.getIndex
                             ? FontWeight.bold
@@ -67,13 +70,9 @@ class _tabBarState extends State<tabBar> with SingleTickerProviderStateMixin {
           ),
           body: PageView(
             allowImplicitScrolling: false,
+            clipBehavior: Clip.none,
             controller: Provider.pageController,
-            children: List.generate(
-              5,
-              (index) => Container(
-                color: Colors.primaries[index % 18],
-              ),
-            ),
+            children: Provider.Pages,
           ),
         );
       },

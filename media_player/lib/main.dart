@@ -1,15 +1,21 @@
 import 'package:flutter/material.dart';
+import 'package:media_player/controller/audio_Controller.dart';
 import 'package:media_player/controller/page_controller.dart';
 import 'package:media_player/views/screens/home_page.dart';
 import 'package:provider/provider.dart';
 
 void main() {
-  runApp(
-    ChangeNotifierProvider(
-      create: (context) => MyTabController(),
-      child: const MyApp(),
-    ),
-  );
+  runApp(MultiProvider(
+    providers: [
+      ChangeNotifierProvider(
+        create: (context) => MyTabController(),
+      ),
+      ChangeNotifierProvider(
+        create: (context) => AudioController(),
+      ),
+    ],
+    child: const MyApp(),
+  ));
 }
 
 class MyApp extends StatelessWidget {
