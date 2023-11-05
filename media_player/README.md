@@ -1,16 +1,9 @@
 # media_player
 
-A new Flutter project.
+<img src = "https://github.com/hirenkhasatiya/Media_Player_App/assets/121547143/2d93ffe4-954e-4554-b6aa-06ca9f9a3a80" width = 300 >
 
-## Getting Started
+<img src = "https://github.com/hirenkhasatiya/Media_Player_App/assets/121547143/72a6b8d7-d9c7-4bed-906a-8cf346dda991" width = 300 >
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src = "https://github.com/hirenkhasatiya/Media_Player_App/assets/121547143/29bd141a-d035-41b4-b003-6a74a027cb70" width = 300 >
+<img src = "https://github.com/hirenkhasatiya/Media_Player_App/assets/121547143/b1df44c9-6bea-42fb-8a65-cc3368d44601" width = 300 >
+<img src = "https://github.com/hirenkhasatiya/Media_Player_App/assets/121547143/a3051a36-34fb-430e-a5b9-9425b64bc16c" width = 300 >
