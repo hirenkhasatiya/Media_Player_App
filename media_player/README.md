@@ -1,9 +1,7 @@
 # media_player
 
-<img src = "https://github.com/hirenkhasatiya/Media_Player_App/assets/121547143/2d93ffe4-954e-4554-b6aa-06ca9f9a3a80" width = 300 >
-
-<img src = "https://github.com/hirenkhasatiya/Media_Player_App/assets/121547143/72a6b8d7-d9c7-4bed-906a-8cf346dda991" width = 300 >
-
-<img src = "https://github.com/hirenkhasatiya/Media_Player_App/assets/121547143/29bd141a-d035-41b4-b003-6a74a027cb70" width = 300 >
-<img src = "https://github.com/hirenkhasatiya/Media_Player_App/assets/121547143/b1df44c9-6bea-42fb-8a65-cc3368d44601" width = 300 >
-<img src = "https://github.com/hirenkhasatiya/Media_Player_App/assets/121547143/a3051a36-34fb-430e-a5b9-9425b64bc16c" width = 300 >
+<img src = "https://github.com/hirenkhasatiya/Media_Player_App/assets/121547143/e7eeee09-6472-4fae-b138-9c15c122ed52" width = 300 >
+<img src = "https://github.com/hirenkhasatiya/Media_Player_App/assets/121547143/75dbda3a-5daf-4e13-b633-1842d2984804" width = 300 >
+<img src = "https://github.com/hirenkhasatiya/Media_Player_App/assets/121547143/f7d87afd-22f3-48a9-8f7f-4678b1c249a7" width = 300 >
+<img src = "https://github.com/hirenkhasatiya/Media_Player_App/assets/121547143/e9f4ff04-31b5-4098-a198-b33aa44a98b9" width = 300 >
+<img src = "https://github.com/hirenkhasatiya/Media_Player_App/assets/121547143/13a8b6e5-d9fc-4662-a3d3-414aeed2684c" width = 300 >
